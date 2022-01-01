@@ -1,0 +1,34 @@
+
+import "objects.obj";
+//666est
+api Test{
+group users{
+   group other{
+       method test throws fff() -> {
+       int a;
+       }
+   }
+   public method get throws Erroneous
+   (
+     int64 data;
+     test y;
+   )
+   {
+      response {
+         int id;
+         string name = "test", dataset = "test2"; [fields for me]
+         data<TestDataset>[] {
+           int test; [defines something]
+           int ttt; [description]
+         }
+         int[] id;
+         TestDataset data;
+      }
+   }
+}
+}
+
+object Test {
+int64 test;
+string ttttt;
+}
